@@ -17,10 +17,10 @@ sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 print('Example 1')
 print('Establish Authentication Credentials')
 
-CONSUMER_KEY = 'ftyzJKRgJpic0c77u7GMvwsxS'
-CONSUMER_SECRET = '6uBZu8ab0AlSkamQprQ0P80kBLg1dCkmbTK3jlVf85l75m7sej'
-OAUTH_TOKEN = '970370538-UuwT1VLbd9c0Wln5HRqqfN3huBcEvyFJ1HxDpSl6'
-OAUTH_TOKEN_SECRET = 'W5AlWTEwwCSfQA9HzRVGYv2IfDu5HMhd4vVDNqxle39v8'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
